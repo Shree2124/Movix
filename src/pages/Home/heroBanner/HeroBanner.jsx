@@ -14,7 +14,7 @@ function HeroBanner() {
     const bg =
       url.backdrop +
       data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
-    setBackground(bg);
+      setBackground(bg);
   }, [data]);
   const navigate = useNavigate();
 
